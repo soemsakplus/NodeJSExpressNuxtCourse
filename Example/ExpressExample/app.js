@@ -13,15 +13,6 @@ app.use('/', (req, res, next) => {
   next();
 });
 
-app.use('/add-product', (req, res, next) => {
-  console.log('In another middleware!');
-  res.send('<h1>The "Add Product" Page</h1>');
-});
-
-app.use('/products', (req, res, next) => {
-  res.send('{"name": "Soemsak","age": 37,"kids": [{"name": "aaa"},{"name": "bbb"}]}');
-});
-
 app.get('/product/:id', (req, res, next) => {
   res.send('{"id": ' + req.query.p1 + '}');
 });
