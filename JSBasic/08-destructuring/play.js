@@ -6,11 +6,16 @@ const person = {
   }
 };
 
-const printName = ({ name }) => {
-  console.log(name);
+const printPerson = (person) => {
+  console.log('printPerson ' + person.name + ' ' + person.age)
+}
+
+const printName = ({ name, age }) => {
+  console.log(name + ' ' + age);
 };
 
 printName(person);
+printPerson(person);
 
 const { name, age } = person;
 console.log(name, age);
