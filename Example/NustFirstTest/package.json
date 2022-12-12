@@ -14,7 +14,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "chart.js": "^2.9.3",
     "cross-env": "^5.2.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "hchs-vue-charts": "^1.2.8",
     "nuxt": "^2.0.0"
   },
